@@ -1,0 +1,67 @@
+.logo{
+    cursor: pointer;
+}
+p{
+    text-align: center;
+    font-size: 50px;
+    margin-top: -1px;
+}
+.btn{
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-right: 5%;
+    margin-top: 1.5%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    float: right;
+}
+.btn:hover{
+    background-color: orange;
+}
+.btn1{
+    background-color: orange;
+    color: black;
+    padding: 20px;
+    margin-right: 46%;
+    top: -20%;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    float: right;
+}
+.btn1:hover{
+    background-color: green;
+    transition-delay: 1s;
+    text-shadow: 10px;
+}
+.brand{
+    background-color: black;
+    cursor: pointer;
+    padding: 10px;
+}
+.column{
+    padding: 20px;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border-radius: 30px;
+}
+.brand::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+footer{
+    font-size: 20px;
+    background-color: black;
+    color: antiquewhite;
+}
+.head{
+    font-size: 1%
+}
+.foot{
+    font-size: 20px;
+
+}
